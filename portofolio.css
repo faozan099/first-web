@@ -1,4 +1,4 @@
-body { 
+body, html{ 
     padding: 0;
     margin: 0;
 }
@@ -87,12 +87,11 @@ body {
     border-bottom: 3px;
 }
 img {
-    height: 200px;
-    width: 200px;
+    height: 120px;
+    width: 120px;
+    border-radius: 100px;
     margin-left: 120px;
-    margin-top: 60px;
-    border-radius: 100%;
-
+    margin-top: 10px;
 }
 
 .wrapptext {
@@ -111,66 +110,38 @@ img {
 .ph {
     padding-bottom: 110px;
 }
-
-.logo-sertifikat {
-    width: 80px;
-    margin-left: 120px;
+.container {
+    width: 80%;
+    margin: 80px 120px 80px 120px;
+    justify-content: space-between;
+    align-items: baseline;
 }
 
-
-.sertifikat {
-    display: block;
+.dro {
+    width: 80px;
     height: 80px;
-    width: 80px;
-    justify-content: start;
-    margin: 24px 0 4px 0;
-
+    padding-top: 0;
 }
 
-.info {
+.branch {
+    display: flex;
+    align-items: top;
+    border: 1px black;
+}
+
+.container .branch h3 {
     width: 300px;
-    display: block;
-    position: absolute;
-    left: 228px;
-    bottom: 8px ;
 }
 
-.strong {
-    font-size: 28px;
-    margin: 76px 4px 4px 4px;
+.container .branch p {
+    font-size: 20px;
+    margin-right: 80px;
+    margin-left: 10px;
+    padding-top: 8px;
+    padding-bottom: 4px;
+    width: 350px;
 }
 
-.identitas {
-    width: 500px;
-    right: 400px;
-    bottom: 40px;
-    position: absolute;
-    margin-right: 120px;
-    border-style: hidden hidden hidden solid;
-}
-
-.bio {
-    width: 50%;
-    font-size: 24px;
-    margin-left: 12px;
-}
-
-h2 {
-    margin-left: 12px;
-
-}
-
-.achievements {
-    position: absolute;
-    width: 500px;
-    border-style: hidden hidden hidden solid;
-    bottom: 120px;
-    right: 10px;
-}
-
-.io {
-    font-size: 24px;
-}
 
 .sosmeds {
     display: flex;
@@ -188,3 +159,17 @@ h2 {
 .copy {
     margin-left: 120px;
 }
+
+.hdh {
+    border: 1px;
+    display: flex;
+    width: 70%;
+    margin: auto;
+    align-items: baseline;
+    justify-content: space-between;
+}
+
+.hdh div {
+    margin-right: 40px;
+}
+
